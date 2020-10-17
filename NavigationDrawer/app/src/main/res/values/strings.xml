@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Navigation Drawer</string>
+    <string name="my_image">my image</string>
+    <string name="john_doe">John Doe</string>
+    <string name="example_gmail_com">example@gmail.com</string>
+    <string name="item_inbox">inbox</string>
+    <string name="starred">starred</string>
+    <string name="send_mail">send</string>
+    <string name="drafts">drafts</string>
+    <string name="sub_header">subheader</string>
+    <string name="all_mail">All mail</string>
+    <string name="trash">trash</string>
+    <string name="spam">spam</string>
+    <string name="open_drawer">Open navigation drawer</string>
+    <string name="close_drawer">Close navigation drawer</string>
+</resources>
