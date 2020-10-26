@@ -8,14 +8,15 @@ import android.widget.EditText;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textfield.TextInputLayout;
 
 public class MainActivity extends AppCompatActivity {
 
-    public final String TAG = getClass().getSimpleName();
+    private static final String TAG = "MainActivity";
 
-    private EditText mUsernameField;
-    private EditText mPasswordField;
+    private TextInputEditText mUsernameField;
+    private TextInputEditText mPasswordField;
     private TextInputLayout mUsernameTextInputLayout;
     private TextInputLayout mPasswordTextInputLayout;
 
