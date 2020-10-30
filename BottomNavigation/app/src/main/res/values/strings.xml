@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Bottom Navigation</string>
+    <string name="near_by">Near by</string>
+    <string name="favourite">Favourite</string>
+    <string name="recent">recent</string>
+    <string name="display">Recents</string>
+</resources>
