@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TabLayout (Fixed Mode)</string>
+    <string name="one">One</string>
+    <string name="two">Two</string>
+    <string name="three">Three</string>
+    <string name="one_fragment_title">ONE TITLE</string>
+    <string name="two_fragment_title">TWO TITLE</string>
+    <string name="three_fragment_title">THREE TITLE</string>
+</resources>
