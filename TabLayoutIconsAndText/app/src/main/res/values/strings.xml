@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TabLayout (Icons and Text)</string>
+    <string name="recents">Recents</string>
+    <string name="favorites">Favorites</string>
+    <string name="nearby">Near By</string>
+    <string name="recents_fragment">RECENTS</string>
+    <string name="nearby_fragment">NEARBY</string>
+    <string name="favorites_fragment">FAVORITES</string>
+</resources>
