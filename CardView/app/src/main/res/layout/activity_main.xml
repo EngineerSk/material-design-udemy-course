@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_100"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.circularreveal.cardview.CircularRevealCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/card_view1_id"
+        android:background="@color/colorCardBackground"
+        app:contentPadding="16dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:id="@+id/image_1"
+            android:src="@drawable/gear_clocks_angle_view"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/gear_clocks_angle_view" />
+
+
+    </com.google.android.material.circularreveal.cardview.CircularRevealCardView>
+
+    <com.google.android.material.circularreveal.cardview.CircularRevealCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/card_view2_id"
+        android:background="@color/colorCardBackground"
+        app:contentPadding="16dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="16dp"
+        android:layout_margin="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/card_view1_id">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:id="@+id/image_2"
+            android:src="@drawable/industrial_gearbox"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/gear_clocks_angle_view" />
+
+    </com.google.android.material.circularreveal.cardview.CircularRevealCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
