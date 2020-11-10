@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Constraint Layout (Responsive Login)</string>
+    <string name="password">password</string>
+    <string name="username">username</string>
+    <string name="login">Login</string>
+    <string name="symbol_of_religious_rites">Symbol of religious rites</string>
+</resources>
